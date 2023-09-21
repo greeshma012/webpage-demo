@@ -1,0 +1,632 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #999999;
+  }
+/*hidden header*/
+    .header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      padding-left: 100px;
+      padding-top: 40px;
+      padding-bottom: 10px;
+      z-index: 100;
+      transition: opacity 0.3s ease;
+      opacity: 0;
+      visibility: hidden;
+      font-family: 'lora' , serif;
+      font-size: 14px;
+    }
+
+      .header img {
+        float: left;
+        padding-left: 80px; /* icon left spacing*/
+        padding-top: 0%;
+        border-image-width: 30px;
+      }
+
+        .visible {
+          opacity: 1;
+          visibility: visible;
+        }
+
+          #header-content {
+            text-align: center;
+            margin-top: 40px;
+          }
+
+            /*hidden header close*/
+
+            /*page header*/
+            .abc {
+              background-image: url("http://landing.zytheme.com/cobuild/assets/images/hero/1.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-color: rgba(0, 0, 0, 0.5);
+              background-blend-mode: color-burn;
+              margin-bottom: 40px;
+              margin-top: 0px;
+            }
+
+              first-header {
+                color: white;
+                top: 0;
+                background-color: transparent;
+                padding-top: 20px; /* header section height*/
+              }
+
+                /*header logo*/
+                .first-header .img {
+                  float: left;
+                  padding-left: 180px; /* icon left spacing*/
+                  padding-top: 20px;
+                  border-image-width: 30px;
+                  color: white;
+                }
+
+                  .abc .first-header a {
+                    color: white;
+                    text-decoration: none;
+                  }
+                  /*page header close*/
+
+                  /* link wrapper*/
+                    nav {
+                      display: flex;
+                      align-items: center;
+                      justify-content: flex-end;
+                    }
+
+                    
+
+                      .link {
+                        display: flex;
+                        list-style-type: none;
+                        padding: 0;
+                        padding-right: 50px;
+                        padding-top: 20px;
+                        margin: 0;
+                      }
+                        .link a {
+                          color: rgb(0, 0, 0);
+                          text-decoration: none;
+                          
+                        }
+
+                          .link a:hover {
+                            color: rgb(230, 174, 23);
+                          }
+
+                           .link{
+                             margin-right: 50px; /* space between link in header section*/
+                             word-spacing: 50px;
+                             }
+
+                              @media (max-width: 768px)  {
+                                .link {
+                                  flex-direction: column;
+                                  align-items: left;
+                                  display: none;
+                                }
+                                .menu-icon .link a:hover {
+                                  color: white;
+                                }
+                                 
+                                  
+                                 
+                                .menu-icon {
+                                    display: block;
+                                    border-color: #f5af00;
+                                   color: white;
+                                    padding-top: 30px;
+                                    padding-bottom: 30px;
+                                  }
+
+                                    .menu-icon span {
+                                      display: block;
+                                      width: 10px;
+                                      height: 3px;
+                                      background-color: rgb(184, 168, 25);
+                                      margin-bottom: 5px;
+                                      border-color: #f5af00;
+                                      color: #ffffff;
+                                    }
+                                      .show {
+                                        display: inline-block;
+                                        list-style-type: none;
+                                          padding: 0;
+                                          padding-right: 50px;
+                                          padding-top: 20px;
+                                          margin: 0;
+                                          background-color: #000000;
+                                          padding-left: 100px;/* icon width*/
+                                          text-align: left;
+                                          color: rgb(0, 0, 0);
+                                                        }
+
+                                        .show li {
+                                         
+                                          margin-right: 0;
+                                          margin-bottom: 10px;
+                                          color: rgb(255, 255, 255);
+                                          text-decoration: none;
+                                          display: block;
+                                          margin-bottom: 5px;
+                                         
+                                        }
+                                      }
+
+                                      @media (min-width: 769px) {
+                                        .link li {
+                                          margin-right: 70px;
+                                        }
+                                      }
+/*page navigation*/
+section {
+  height: 0vh;
+  padding-top: 0%;
+}
+
+  /*  text in class abc after head*/
+  h1 {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+
+    div.b {
+      text-align: center;
+      color: white;
+      margin: 40px;
+      margin-top: 250px;
+    }
+
+      .btn--rounded {
+        border-radius: 50px;
+        border: 2px solid #000000;
+      }
+
+        .btn--primary {
+          background-color: #f5af00;
+          color: #ffffff;
+          border-color: white;
+        }
+          .btn {
+            position: relative;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 200;
+            text-align: center;
+            padding: 5;
+            line-height: 50px;
+            width: 170px;
+            height: 50px;
+            display: inline-block;
+            margin-bottom: 400px;
+            vertical-align: middle;
+            touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+          }
+
+          /* class abc finish*/
+
+            /* services*/
+            div.c {
+              text-align: center;
+              font-family: "Poppins", sans-serif;
+              font-weight: 100;
+              font-size: medium;
+              font-weight: lighter;
+              padding-left: 0px;
+              padding-bottom: 30px;
+            }
+
+                h2 {
+                  font-size: 30px;
+                  font-weight: lighter;
+                }
+                /* services images*/
+                  table.d {
+                    border-collapse: collapse;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%; /* space full varan*/
+                    font-family: sans-serif;
+                    margin: 60px;
+                    margin-bottom: 50px;
+                  }
+
+                     table img.d {
+                      height: 70px;
+                      margin-right: 100px; /* image sideilot mattan*/
+                      }
+
+                          th {
+                            padding-left: 10px;
+                          }
+
+                            td {
+                              text-align: center;
+                              padding: 5px;
+                              font-size: 20px;
+                            }
+                                /*featured work*/
+
+                                div.e {
+                                  display: block;
+                                  text-align: center;
+                                  margin: 120px;
+                                  background-size: cover;
+                                  background-repeat: no-repeat;
+                                  
+                               
+                                  margin: 4px;
+                                  padding-top: 50px;
+                                  padding-bottom: 0px;
+                                  padding-block-start: 20px;
+                                  background-color: #ece8e8;
+                                  text-decoration: none;
+                                }
+
+                                  .categories {
+                                    font-style: italic;
+                                    text-decoration: none;
+                                     font-family: "lora", serif;
+                                  }
+
+
+
+
+                                  
+                                    /* big images*/
+                                    .e a p {
+                                      color: black;
+                                      margin: 0 10px;
+                                      display: inline-block;
+                                      padding: 5px 10px;
+                                      font-style: italic;
+                                      text-decoration: none;
+                                    }
+                                      .e a:hover {
+                                        color: rgb(230, 174, 23);
+                                        text-decoration: none;
+                                      }
+
+                                          .e a:not(:last-child)::after {
+                                            content: "/";
+                                            margin-left: 30px;
+                                            margin-right: 30px;
+                                          }
+
+                                              table.photo {
+                                                margin-left: auto;
+                                                margin-right: auto;
+                                                width: 0px;
+                                                height: 100px;
+                                              }
+
+                                                  .e.img {
+                                                    width: 100px;
+                                                    height: 100px;
+                                                  }
+
+                                                    span .e {
+                                                      width: 100%;
+                                                    }
+
+                                                      .e.a {
+                                                        text-decoration: none;
+                                                      }
+
+                                                        .photo td {
+                                                          position: relative;
+                                                        }
+
+                                                          .photo td:hover img {
+                                                            opacity: 0;
+                                                          }
+
+                                                            .photo .image-container {
+                                                              position: relative;
+                                                            }
+
+                                                              .photo .overlay {
+                                                                position: absolute;
+                                                                top: 0;
+                                                                left: 0;
+                                                                width: 100%;
+                                                                height: 100%;
+                                                                opacity: 0;
+                                                                background-color: rgba(245, 172, 36, 0.7);
+                                                                transition: opacity 0.7s ease;
+                                                              }
+
+                                                                .photo .text {
+                                                                  position: absolute;
+                                                                  top: 50%;
+                                                                  left: 50%;
+                                                                  transform: translate(-50%, -50%);
+                                                                  color: #ffffff;
+                                                                  font-size: 18px;
+                                                                  text-align: center;
+                                                                }
+
+                                                                  .photo .text:hover {
+                                                                    color: rgb(17, 16, 15);
+                                                                    text-decoration: none;
+                                                                  }
+
+                                                                    .photo td:hover .overlay {
+                                                                      opacity: 1;
+                                                                    }
+
+                                                                        .text:hover {
+                                                                          color: black;
+                                                                        }
+
+                                                                          .plus-btn {
+                                                                            width: 40px;
+                                                                            height: 40px;
+                                                                            background-color: transparent;
+                                                                            border: none;
+                                                                            cursor: pointer;
+                                                                            background-repeat: no-repeat;
+                                                                            background-size: cover;
+                                                                          }
+
+                                                                            /*image animation after clicking '+' sign*/
+                                                                              .zoomed-image {
+                                                                                display:none;
+                                                                                position: fixed;
+                                                                                top: 0;
+                                                                                left: 0;
+                                                                                z-index: 9999;
+                                                                                width: 100%;
+                                                                                height: 100%;
+                                                                                background-color: rgba(0, 0, 0, 0.8);
+                                                                                text-align: center;
+                                                                                padding-top: 300px;
+                                                                                padding-bottom: 0px;
+                                                                              }
+
+                                                                                  .zoomed-image-content {
+                                                                                    max-width: 80%;
+                                                                                    max-height: 80%;
+                                                                                    margin-top: 10%;
+                                                                                  }
+                                                                                  .categories {
+                                                                                    margin-bottom: 20px;
+                                                                                  }
+                                                                                  
+                                                                                  .category-link {
+                                                                                    display: inline-block;
+                                                                                    margin-right: 10px;
+                                                                                    padding: 5px 10px;
+                                                                                    background-color: #ece8e8;
+                                                                                    color: #333;
+                                                                                    text-decoration: none;
+                                                                                    border-radius: 5px;
+                                                                                  }
+                                                                                  
+                                                                                  .category-link.active {
+                                                                                    background-color: #ece8e8;
+                                                                                    color: black;
+                                                                                  }
+                                                                                    .close-btn {
+                                                                                      position: absolute;
+                                                                                      top: 10px;
+                                                                                      right: 10px;
+                                                                                      font-size: 24px;
+                                                                                      color: #fff;
+                                                                                      background-color: transparent;
+                                                                                      border: none;
+                                                                                      cursor: pointer;
+                                                                                    }
+
+                                                                                        .navigation-btn {
+                                                                                          position: absolute;
+                                                                                          top: 50%;
+                                                                                          transform: translateY(-50%);
+                                                                                          font-size: 18px;
+                                                                                          color: #fff;
+                                                                                          background-color: transparent;
+                                                                                          border: none;
+                                                                                          cursor: pointer;
+                                                                                        }
+
+                                                                                            #previous-btn {
+                                                                                              left: 10px;
+                                                                                            }
+
+                                                                                                #next-btn {
+                                                                                                  right: 10px;
+                                                                                                }
+
+                                                                                                    /*progress */
+                                                                                                    .f {
+                                                                                                      display: flex;
+                                                                                                      justify-content: space-between;
+                                                                                                      align-items: center;
+                                                                                                      padding-top: 80px;
+                                                                                                      padding-bottom: 80px;
+                                                                                                      background-color: white;
+                                                                                                    }
+
+                                                                                                      table .f {
+                                                                                                        width: 100%;
+                                                                                                      }
+                                                                                                          /*progress bar code*/
+                                                                                                          .f .text {
+                                                                                                            flex: 1;
+                                                                                                            padding-right: 20px;
+                                                                                                          }
+
+                                                                                                            .f .progress-bar {
+                                                                                                              flex: 1;
+                                                                                                            }
+
+                                                                                                              .progress-bar-heading {
+                                                                                                                display: inline-block;
+                                                                                                                margin-right: 20px;
+                                                                                                                word-spacing: 420px; /* heading between space*/
+                                                                                                              }
+
+                                                                                                                    .f .progress-bar-heading {
+                                                                                                                      margin-bottom: 20px;
+                                                                                                                      margin-top: 20px;
+                                                                                                                    }
+
+                                                                                                                      .f .progress-bar-inner {
+                                                                                                                        position: relative;
+                                                                                                                        height: 7px;
+                                                                                                                        background-color: #e0e0e0;
+                                                                                                                        border-radius: 10px;
+                                                                                                                        overflow: hidden;
+                                                                                                                      }
+
+                                                                                                                            .f .progress-bar-fill {
+                                                                                                                              position: absolute;
+                                                                                                                              top: 0;
+                                                                                                                              left: 0;
+                                                                                                                              height: 100%;
+                                                                                                                              background-color: #d1c022;
+                                                                                                                              padding-bottom: 20px;
+                                                                                                                            }
+
+                                                                                                                                  .f .progress-bar-fill::after {
+                                                                                                                                    content: attr(data-progress);
+                                                                                                                                    position: absolute;
+                                                                                                                                    top: 50%;
+                                                                                                                                    left: 50%;
+                                                                                                                                    transform: translate(-50%, -50%);
+                                                                                                                                    color: white;
+                                                                                                                                  }
+
+                                                                                                                                          .progress-bar-fill {
+                                                                                                                                          width: 85%;
+                                                                                                                                          }
+
+                                                                                                                                            #n {
+                                                                                                                                            width: 60%;
+                                                                                                                                            }
+
+                                                                                                                                            #o {
+                                                                                                                                            width: 70%;
+                                                                                                                                            }
+
+                                                                                                                                            #p {
+                                                                                                                                            width: 40%;
+                                                                                                                                            }
+                                                                                                                                             /*progress bar close*/
+
+
+                                                                                                                                          /* yellow background with button*/
+                                                                                                                                          .g {
+                                                                                                                                            background-color: #f5af00;
+                                                                                                                                            color: white;
+                                                                                                                                            text-align: center;
+                                                                                                                                            height: auto;
+                                                                                                                                            padding-top: 50px;
+                                                                                                                                            padding-right: 100px;
+                                                                                                                                            padding-bottom: 50px;
+                                                                                                                                            padding-left: 100px;
+                                                                                                                                            margin: 0px;
+                                                                                                                                            align-content: center;
+                                                                                                                                            justify-content: center;
+                                                                                                                                            align-items: center;
+                                                                                                                                            height: 300px;
+                                                                                                                                            width: 100%;
+                                                                                                                                          }
+
+                                                                                                                                      /* 2 boy heading*/
+                                                                                                                                      .h {
+                                                                                                                                        text-align: center;
+                                                                                                                                        margin-left: 0px;
+                                                                                                                                        padding-left: 0px;
+                                                                                                                                        margin-right: 30px;
+                                                                                                                                        width: 100%;
+                                                                                                                                        background-color:white;
+                                                                                                                                        margin-top: 0px;
+                                                                                                                                        margin-bottom: 0px;
+                                                                                                                                        padding-top: 80px;
+                                                                                                                                        padding-bottom: 80px;
+                                                                                                                                        
+                                                                                                                                      }
+
+                                                                                                                                      image.h {
+                                                                                                                                        height: 50px;
+                                                                                                                                      }
+
+                                                                                                                                  /* 2 boy image*/
+                                                                                                                                  table.i {
+                                                                                                                                    margin: auto;
+                                                                                                                                    text-align: left;
+                                                                                                                                    margin-top: 50px;
+                                                                                                                                    font-family: "lora", serif;
+                                                                                                                                    font-style: italic;
+                                                                                                                                    font-size: 40px;
+                                                                                                                                    word-spacing: 7px;
+                                                                                                                                  }
+
+                                                                                                                              /*error*/
+                                                                                                                              .j {
+                                                                                                                                background-color: #ece8e8;
+                                                                                                                                color: rgb(75, 73, 73);
+                                                                                                                                text-align: center;
+                                                                                                                                height: fit-content;
+                                                                                                                                padding-top: 90px;
+                                                                                                                                padding-right: 0px;
+                                                                                                                                padding-bottom: 90px;
+                                                                                                                              }
+
+                                                                                                                            /*error img*/
+                                                                                                                            image.j {
+                                                                                                                              height: 50px;
+                                                                                                                              margin-right: 40px;
+                                                                                                                            }
+
+                                                                                                                          /*address, no,mail*/
+                                                                                                                          table.k {
+                                                                                                                            margin: 90px;
+                                                                                                                            margin-top: 50px;
+                                                                                                                            margin: auto;
+                                                                                                                            width: 100%;
+                                                                                                                            background-color: #ffffff;
+                                                                                                                          }
+
+                                                                                                                      h3 {
+                                                                                                                        font-size: 25px;
+                                                                                                                        font-weight: lighter;
+                                                                                                                      }
+
+                                                                                                                  .td.k {
+                                                                                                                    font-size: 5px;
+                                                                                                                    margin-bottom: 0px;
+                                                                                                                    background-color: white;
+                                                                                                                    padding-top: 80px;
+                                                                                                                                        
+                                                                                                                    padding-bottom: 80px;
+                                                                                                                                        
+                                                                                                                  }
+
+                                                                                                            footer {
+                                                                                                              border-top: 1px solid rgb(168, 167, 166);
+                                                                                                              padding: 30px 10px;
+                                                                                                              text-align: left;
+                                                                                                              margin-left: 90px;
+                                                                                                             
+                                                                                                            }
+
+                                                                                          /*footer img*/
+                                                                                          footer img {
+                                                                                            height: 15px;
+                                                                                            float: right; /*align image left or right*/
+                                                                                            margin-right: 20px; /* giving space between images */
+                                                                                            
+                                                                                          }

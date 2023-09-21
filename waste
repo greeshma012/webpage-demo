@@ -1,0 +1,167 @@
+filter: brightness(50%);
+ header {
+        text-decoration: none;
+        background-color: #6866662f;
+        display: static;
+        padding: 25px; /* header section height*/
+        text-align: right;
+        word-spacing: 50px;
+        margin-bottom: 400px;
+       
+        
+        }
+
+            header .img {
+                float: left;
+                
+                }
+
+            div.a {
+            background: url("http://landing.zytheme.com/cobuild/assets/images/hero/1.jpg");
+            background-image: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            filter: brightness(50%);
+            text-decoration: none;
+            
+        }
+       a .content {
+         text-decoration: none;
+          position: relative;
+          color: white;
+          text-align: right;
+          padding: 20px;
+        }
+            
+
+
+        <a href="#">All</a>
+        <a href="#">Building</a>
+        <a href="#">Construction</a>
+        <a href="#">Planning</a>
+      </div>
+  
+          <div><span class="a"><img src="http://landing.zytheme.com/cobuild/assets/images/portfolio/constructions/1.jpg"></span> <span class="a"><img src="http://landing.zytheme.com/cobuild/assets/images/portfolio/constructions/2.jpg"></span> <span class="a"><img src="http://landing.zytheme.com/cobuild/assets/images/portfolio/constructions/3.jpg"></span> </div>
+          <br>
+          
+          <div><span class="b"><img src="http://landing.zytheme.com/cobuild/assets/images/portfolio/constructions/4.jpg"></span><span class="b"><img src="http://landing.zytheme.com/cobuild/assets/images/portfolio/constructions/5.jpg"></span> <span class="b"><img src="http://landing.zytheme.com/cobuild/assets/images/portfolio/constructions/6.jpg"></span> </div>
+        
+        </div>
+
+        span.a .e {
+            display: inline; /* the default for span */
+            width: 100px;
+            height: 100px;
+            padding: 2px;
+            }
+          
+          span.b.e{
+            display: inline;
+            width: 100px;
+            height: 100px;
+            padding: 2px;
+          }
+
+
+          <table class="f">
+          <tr><td><h2>We are expert in this field since<br> almost 20 years.</h2></td>
+            <td></td>
+          </tr>
+          <tr></tr>
+          <td><p>Proin gravida nibh vel velit auctor aliquet aenean<br>sollicitudin, lorem quis bibendum auctor, nisi elit<br>
+                cuat ipsum, nec sagittis sem nibh id elit duis sed<br>odio sit nibh vulputate cursus a sit amet mauris<br>
+                morbi accumsan.
+          </p></td>
+
+       <td>
+          <div class="progressbar"></div>
+            <div class="progress-title"></div>
+                <span class="title">Buildings</span>
+                  <span class="value">85%</span>
+        </div>
+
+        <div class="progressbar"></div>
+            <div class="progress-title"></div>
+                <span class="title">ARCHITECTURE</span>
+                  <span class="value">60%</span>
+        </div>
+
+        <div class="progressbar"></div>
+            <div class="progress-title"></div>
+                <span class="title">CONSTRUCTIONS</span>
+                  <span class="value">70%</span>
+        </div>
+
+        <div class="progressbar"></div>
+            <div class="progress-title"></div>
+                <span class="title">PLANNING</span>
+                  <span class="value">40%</span>
+        </div>
+      </td>
+   </table>
+
+<div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-planning" style="position: absolute; left: 500px; top: 0px;">…</div>
+   .skills .progress-title .value {
+    float: right;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+background-image: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+filter: brightness(50%);
+text-decoration: none;
+position: absolute;
+color: white;
+text-align: right;
+padding: 20px;
+
+
+
+
+
+
+
+text-decoration: none;
+display: flex;
+  align-items: center;
+
+  section:first-child {
+    background: url("http://landing.zytheme.com/cobuild/assets/images/hero/1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-image: fixed;
+      background-blend-mode:color-burn;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5);/*brightness of img without affecting text*/
+    color: #ffffff;
+  }
+  body.second-page header {
+    background-color: white;
+  }
+  
+  body.second-page .link a {
+    color: black;
+  }
+  
+
+  <div class="categories">
+  <ul>
+<span><a href="#">All</a>
+<a href="#tower">Building</a>
+<a href="#renovation">Construction</a>
+<a href="#planning">Planning</a></span></ul>
+</div>
+<div class="content2">
+
+<section id="ALL"></section>
+
+<section id="tower"></section>
+
+<section id="renovation,tower building"></section>
+
+<section id="planning"></section> 
